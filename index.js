@@ -1,8 +1,9 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 
-const promptManagerQuestions = () => {
-    return inquirer.prompt ([
+// const promptManagerQuestions = () => {
+    // return 
+    inquirer.prompt ([
         {
             type: `input`,
             name: `ManagerName`,
@@ -23,17 +24,4 @@ const promptManagerQuestions = () => {
             name: `ManagerNumber`,
             message: `What is the manager's phone number?`
         }
-    
-    ]).then(answers) => {}
-
-const promptEmployeeOption = () => {
-    return inquirer.prompt ([
-        {
-            type: `list`,
-            name: `EmployeeOption`,
-            message: `Choose an employee to add to your team`,
-            choices: [`Engineer`, `Intern`],
-
-        }
-    ]).then(answers) => 
-};
+    ])
