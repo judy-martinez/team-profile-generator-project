@@ -1,13 +1,16 @@
-const fs = require('fs');
-const inquirer = require('inquirer');
+// Classes
 const Manager = require('./models/Manager')
 const Engineer = require('./models/Engineer')
 const Intern = require('./models/Intern')
+
+// Dependencies
+const fs = require('fs');
+const inquirer = require('inquirer');
+
 const teamData = []
 const generateFile = require('./lib/template.js')
+
 // Manager Questions
-
-
 const promptManagerQuestions = () => {
 
     inquirer.prompt ([
