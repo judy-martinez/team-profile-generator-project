@@ -46,17 +46,17 @@ const promptInternQuestions = () => {
         {
             type: `input`,
             name: `ManagerName`,
-            message: `What is the team manager's name?`
+            message: `What is the intern's name?`
         },
         {
             type: `input`,
             name: `ManagerId`,
-            message: `What is the manager's employee ID?`
+            message: `What is the intern's employee ID?`
         },
         {
             type: `input`,
             name: `ManagerEmail`,
-            message: `What is the manager's email address?`
+            message: `What is the intern's email address?`
         },
         {
             type: `input`,
