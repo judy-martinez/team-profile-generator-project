@@ -15,6 +15,7 @@ Class challenge to build a node.js command-line application that takes in inform
 https://youtu.be/RKjzQZs3sAs
 
 ## Preview
+![image](https://user-images.githubusercontent.com/93234615/158747263-d9266b25-8cb9-4207-ad6d-9d35504bc373.png)
 
 ## Sample Webpage
 
