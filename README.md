@@ -12,6 +12,7 @@ Class challenge to build a node.js command-line application that takes in inform
 * The HTML webpage displaying the team's info will be generated in the dist folder
 
 ## Walkthrough Video
+https://youtu.be/RKjzQZs3sAs
 
 ## Preview
 
